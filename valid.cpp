@@ -17,11 +17,11 @@ int main(){
 	cout << "Please enter an integer:";
 	int n;
 	cin >> n;
-	while (1>n || n>=100){
+	while (0>=n || n>=100){
 		cout << "Please re-enter:";
 		cin >> n;
 	}
-	if (1<n && n<100){
+	if (0<n && n<100){
 		cout << "Number squared is " << n*n << "\n";
 	}
 	return 0;
