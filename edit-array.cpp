@@ -36,10 +36,10 @@ int main(){
 	if (index<0 || index>10){
 		cout << "Index out of range. Exit.\n";
 	}
-	if (index>0 && index<10) {
+	if (index>=0 && index<10) {
 		myData[index] = v;
 	}
-	} while (index>0 && index<10);
+	} while (index>=0 && index<10);
 	return 0;
 }
 
